@@ -6,7 +6,7 @@ use colored::Colorize;
 
 fn main(){
     loop {
-        println!("{}", "> ".green());
+        println!("{}", "▼".green());
         stdout().flush().unwrap();
 
         let mut input = String::new();
